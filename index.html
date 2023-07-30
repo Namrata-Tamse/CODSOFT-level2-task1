@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <style>
+        /*the background image is used and made it to cover the entire page without repeatation and making the spacing as 0 which is margin*/
+        body {
+            background-image: url("./cover.png"); 
+            background-size: cover;
+            margin: 0;
+        }
+
+        /*the heading where the name of the sir is written has the padding , making that text to come in middle,no spacing using margin, maximum width as 150% and margin auto to be used from left and right*/
+        .heading {
+            padding-top: 60px;
+            text-align: center;
+            margin: 0;
+            font-size: 120px;
+            text-shadow: 4px 0px 5px rgba(17, 13, 142, 0.9);
+            max-width: 150%;
+            margin: 0 auto;
+        }
+
+        /*the image of sir is used inside ablock with with of image as 70% and margin auto to set properly from the left and right and also the padding inside the block.*/
+        img {
+            display: block;
+            width: 70%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        /*the div that is having the small details about the sir are made to be flexed and coming to the centre with width of 80% and left& right margin */ 
+        .details {
+            display: flex;
+            justify-content: center;
+            max-width: 80%;
+            margin: 0 auto;
+            font-size: 23px;
+        }
+        
+
+        /* box contains huge information about the legends width of this is  80% having the height along witth the margin of 30px from left and right with the background image having the box shadow and the padding*/
+        .box {
+            max-width: 80%;
+            height: 50%;
+            margin: 30px auto;
+            background-image: url(./baxback.png);
+            box-shadow: 10px 10px 20px rgba(255, 255, 0, 0.5);
+            padding-top: 30px;
+        }
+
+        /* span is used at the areas where it has to be made as bold*/
+        span {font-weight: bold;}
+
+        /*info is the last content of the HTML page having the max width margin fontsoze and making the text to come at the center*/
+        .info{ justify-content: center; max-width: 80%; margin: 0 auto; font-size: 23px; text-align: center;}
+
+
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            .heading {
+                font-size: 50px;
+            }
+
+            img {
+                width: 80%;
+            }
+
+            .details {
+                max-width: 90%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- The author is Namrata K Tamse for the tribute page of Abdul Kalam sir -->
+    <h1 class="heading">A.&nbspP.&nbspJ. Abdul Kalam</h1>
+    <img src="./apj abdul qalam.png">
+    <div class="details">Dr. Avul Pakir Jainulabdeen Abdul Kalam (A.P.J. Abdul Kalam) was an eminent scientist and the
+        11th President of India.He was born on October 15, 1931, in Rameswaram, Tamil Nadu, India, and passed away on July
+         27, 2015. Abdul Kalamwas widely known as the "Missile Man of India" for his contributions to India's missile and space technology
+        programs.
+    </div>
+    <div class="box">
+        <h1 style="text-align: center;color: aliceblue ;">About The Legend</h1>
+        <div class="some" style="font-size: 20px;margin: 0 50px;">
+            <p>&#128073;&#127998; <span>A. P. J.  Avul Pakir Jainulabdeen Abdul Kalam,</span> was born ob October 15, 1931, in Rameswaram, Tamil Nadu, India</p>
+            <p>&#128073;&#127998;He served as the 11th President of India from <span>2002 to 2007</span></p>
+            <p>&#128073;&#127998;Kalam earned a degree in <span>aeronautical engineering</span> from the<span> Madras Institute of Technology and in 1958 joined joined the Defence Research and Development Organisation (DRDO)</span></p>
+            <p>&#128073;&#127998;In 1969 , he moved to the <span>Indian Space Research Organisation</span>, where he was project director of the SLV-|||, the first satellite lauch vehicle that was both designed and produced in India.</p>
+            <p>&#128073;&#127998;Rejoining DRRO in 1982, Kalam planned  the program that produced a number of <span>successful missiles</span>, which helped ean him the nickname <span>"Missile Man"</span></p>
+            <p>&#128073;&#127998;Among those successful was Agni,<span> Indias first intermediate-range ballistic missile,</span> which incorporated aspects of the SLV-||| and was launched in 1989.</p>
+            <p>&#128073;&#127998;He also played a<span> pivotal organisational , technical, and polotical role in the India Pokhram=|| nuclear test in 1989</span>. the first since the original nuclear test by India 1974.</p>
+            <p>&#128073;&#127998;From<span> 1992 to 1997 Kalam  was scientific advisor to the defense minister</span> , and he later served as principal scientific adviser(1999-2001) to the government with the rank of cabinet minister.</p>
+             <p>&#128073;&#127998;Kalam actively promoted education, particularly in the <span>fields of science and technology,<span> and he encouraged students to pursue their dreams.
+             <p>&#128073;&#127998;He authored several books, including<span> "Wings of Fire" and "Ignited Minds,"</span> which became popular among readers of all ages
+             <p>&#128073;&#127998;After his <span>presidency, Kalam</span> continued to engage in academic and research work and mentored numerous students and scholars.
+             <p>&#128073;&#127998;He was a strong <span>advocate for sustainable development and renewable energy sources.</span> Kalam was deeply concerned about the welfare of the underprivileged and consistently emphasized the importance of inclusive growth.
+             <p>&#128073;&#127998;Throughout his life,<span> Kalam remained committed to promoting peace, harmony, and unity among diverse communities in India</span>.On July 27, 2015, Dr. A.P.J. Abdul Kalam passed away while delivering a lecture at the Indian Institute of Management Shillong, leaving behind a legacy of scientific innovation, leadership, and inspiration for generations to come.</p>
+             <br>
+             <br>
+        </div>
+    </div>
+    <div class="info">
+        For more Information Check out Abdul Kalam on wikipedia [Developed by @ <a href="#"><span>Sushant Gaurav</span></a>]
+    </div>
+    <br>
+</body>
+
+</html>
